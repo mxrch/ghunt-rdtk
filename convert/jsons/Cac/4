@@ -1,0 +1,157 @@
+HTTP/2 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: X-Origin
+Vary: Referer
+Vary: Origin,Accept-Encoding
+Date: Mon, 14 Feb 2022 00:22:59 GMT
+Server: ESF
+Cache-Control: private
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: https://console.cloud.google.com
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: vary,vary,vary,content-encoding,date,server,content-length
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Accept-Ranges: none
+
+{
+  "brandId": "745476177629",
+  "projectIds": [],
+  "projectNumbers": [
+    "745476177629"
+  ],
+  "displayName": "Google Play services",
+  "iconUrl": "",
+  "storedIconUrl": "",
+  "supportEmail": "apps-help@google.com",
+  "homePageUrl": "https://developers.google.com/android/guides/overview",
+  "termsOfServiceUrls": [
+    "https://policies.google.com/terms"
+  ],
+  "privacyPolicyUrls": [
+    "https://policies.google.com/privacy"
+  ],
+  "directNoticeToParentsUrl": "",
+  "brandState": {
+    "state": "ENABLED",
+    "adminId": "1078053568452",
+    "reason": "Enabled through UpdateBrandAsAdmin.",
+    "limits": {
+      "approvalQuotaMultiplier": 0,
+      "maxDomainCount": 0,
+      "defaultMaxClientCount": 36
+    },
+    "brandSetup": "COMPLETED",
+    "creationFlow": "CREATION_FLOW_UNSPECIFIED",
+    "updateTimestamp": "2020-11-02T21:33:34.634Z"
+  },
+  "clients": [],
+  "verifiedBrand": {
+    "displayName": {
+      "value": "Google Play services",
+      "reason": "APPEALED"
+    },
+    "supportEmail": {
+      "value": "apps-help@google.com",
+      "reason": "APPEALED"
+    },
+    "homePageUrl": {
+      "value": "https://developers.google.com/android/guides/overview",
+      "reason": "APPEALED"
+    },
+    "privacyPolicyUrl": {
+      "value": "https://policies.google.com/privacy",
+      "reason": "APPEALED"
+    },
+    "termsOfServiceUrl": {
+      "value": "https://policies.google.com/terms",
+      "reason": "APPEALED"
+    }
+  },
+  "review": {
+    "hasAbuseVerdict": false,
+    "isPublished": true,
+    "reviewState": "APPROVED",
+    "highRiskScopesPrivilege": "ENABLED",
+    "lowRiskScopes": [
+      8200,
+      42001,
+      5400,
+      63907,
+      63913,
+      54700,
+      4400,
+      11200,
+      68800,
+      54600,
+      202,
+      204,
+      4300,
+      7500,
+      68300,
+      15700,
+      77400,
+      9309,
+      9310,
+      50400,
+      9315,
+      9316,
+      9319,
+      1903,
+      11507,
+      42100,
+      9333,
+      103412,
+      9334,
+      43000,
+      1913,
+      9337,
+      9340,
+      21500,
+      9343
+    ],
+    "pendingScopes": [
+      57003,
+      57004,
+      57005,
+      57007,
+      26800,
+      57008
+    ],
+    "exemptScopes": [],
+    "approvedScopes": [
+      2600,
+      300,
+      310,
+      9311,
+      9312,
+      1905,
+      9332,
+      1911,
+      9338
+    ],
+    "historicalApprovedScopes": [
+      2600,
+      300,
+      310,
+      9311,
+      9312,
+      1905,
+      9332,
+      1911,
+      9338
+    ],
+    "pendingDomains": [],
+    "approvedDomains": [
+      "google.com"
+    ],
+    "enforceRequestScopes": false,
+    "category": [
+      "OTHER_CATEGORY"
+    ],
+    "decisionTimestamp": "2020-11-02T22:24:43.650Z"
+  },
+  "isOrgInternal": false,
+  "consistencyToken": "2020-12-09T20:02:24.881779Z"
+}

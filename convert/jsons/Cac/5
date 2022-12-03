@@ -1,0 +1,66 @@
+HTTP/2 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: X-Origin
+Vary: Referer
+Vary: Origin,Accept-Encoding
+Date: Sun, 13 Feb 2022 16:14:49 GMT
+Server: ESF
+Cache-Control: private
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: https://console.cloud.google.com
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: vary,vary,vary,content-encoding,date,server,content-length
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Accept-Ranges: none
+
+{
+  "brandId": "747654520220",
+  "projectIds": [],
+  "projectNumbers": [
+    "747654520220"
+  ],
+  "displayName": "project-747654520220",
+  "iconUrl": "",
+  "storedIconUrl": "",
+  "supportEmail": "unconfiguredapp@google.com",
+  "homePageUrl": "",
+  "termsOfServiceUrls": [],
+  "privacyPolicyUrls": [],
+  "directNoticeToParentsUrl": "",
+  "brandState": {
+    "state": "ENABLED",
+    "adminId": "1078053568452",
+    "reason": "Enabled for creation",
+    "limits": {
+      "approvalQuotaMultiplier": 0,
+      "maxDomainCount": 0,
+      "defaultMaxClientCount": 36
+    },
+    "brandSetup": "DEFERRED",
+    "creationFlow": "FIREBASE",
+    "updateTimestamp": "2020-01-30T01:23:42.386Z"
+  },
+  "clients": [],
+  "review": {
+    "hasAbuseVerdict": false,
+    "isPublished": false,
+    "reviewState": "UNREVIEWED",
+    "highRiskScopesPrivilege": "DISABLED",
+    "lowRiskScopes": [],
+    "pendingScopes": [],
+    "exemptScopes": [],
+    "approvedScopes": [],
+    "historicalApprovedScopes": [],
+    "pendingDomains": [
+      "chime-sdk.firebaseapp.com"
+    ],
+    "approvedDomains": [],
+    "enforceRequestScopes": false,
+    "category": []
+  },
+  "isOrgInternal": false,
+  "consistencyToken": "2020-12-03T09:27:05.445640Z",
+  "creationTime": "2020-01-30T01:23:42.386Z"
+}

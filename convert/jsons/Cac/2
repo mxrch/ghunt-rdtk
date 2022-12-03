@@ -1,0 +1,64 @@
+HTTP/2 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: X-Origin
+Vary: Referer
+Vary: Origin,Accept-Encoding
+Date: Thu, 31 Mar 2022 21:38:29 GMT
+Server: ESF
+Cache-Control: private
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: https://console.cloud.google.com
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: vary,vary,vary,content-encoding,date,server,content-length
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Accept-Ranges: none
+
+{
+  "brandId": "873161391764",
+  "projectIds": [],
+  "projectNumbers": [
+    "873161391764"
+  ],
+  "displayName": "Unknown",
+  "iconUrl": "",
+  "storedIconUrl": "",
+  "supportEmail": "unknown@gmail.com",
+  "homePageUrl": "",
+  "termsOfServiceUrls": [],
+  "privacyPolicyUrls": [],
+  "directNoticeToParentsUrl": "",
+  "brandState": {
+    "state": "ENABLED",
+    "adminId": "1078053568452",
+    "reason": "Enabled for creation",
+    "limits": {
+      "approvalQuotaMultiplier": 0,
+      "maxDomainCount": 0,
+      "defaultMaxClientCount": 36
+    },
+    "brandSetup": "COMPLETED",
+    "creationFlow": "CREATION_FLOW_UNSPECIFIED",
+    "updateTimestamp": "2021-10-25T09:29:36.671Z"
+  },
+  "clients": [],
+  "review": {
+    "hasAbuseVerdict": false,
+    "isPublished": false,
+    "reviewState": "UNREVIEWED",
+    "highRiskScopesPrivilege": "DISABLED",
+    "lowRiskScopes": [],
+    "pendingScopes": [],
+    "exemptScopes": [],
+    "approvedScopes": [],
+    "historicalApprovedScopes": [],
+    "pendingDomains": [],
+    "approvedDomains": [],
+    "enforceRequestScopes": false,
+    "category": []
+  },
+  "isOrgInternal": false,
+  "consistencyToken": "2021-10-25T09:29:36.799776Z",
+  "creationTime": "2021-10-25T09:29:36.411Z"
+}

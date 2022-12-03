@@ -1,0 +1,81 @@
+HTTP/2 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: X-Origin
+Vary: Referer
+Vary: Origin,Accept-Encoding
+Date: Sat, 26 Mar 2022 17:53:39 GMT
+Server: ESF
+Cache-Control: private
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: https://console.cloud.google.com
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: vary,vary,vary,content-encoding,date,server,content-length
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Accept-Ranges: none
+
+{
+  "brandId": "425112442765",
+  "projectIds": [],
+  "projectNumbers": [
+    "425112442765"
+  ],
+  "displayName": "Jodel",
+  "iconUrl": "https://lh3.googleusercontent.com/L0EleY8LGmj5VR1h3XJIB08ESCfNfnPhNtK5xxMw-eowtNozSMgSPYDFZoGJOcty3w",
+  "storedIconUrl": "https://lh3.googleusercontent.com/L0EleY8LGmj5VR1h3XJIB08ESCfNfnPhNtK5xxMw-eowtNozSMgSPYDFZoGJOcty3w",
+  "supportEmail": "android@jodel.com",
+  "homePageUrl": "https://www.jodel.com",
+  "termsOfServiceUrls": [
+    "https://jodel.com/terms/"
+  ],
+  "privacyPolicyUrls": [
+    "https://jodel.com/app-privacy/"
+  ],
+  "directNoticeToParentsUrl": "",
+  "brandState": {
+    "state": "ENABLED",
+    "adminId": "1078053568452",
+    "reason": "Update BrandSetup",
+    "limits": {
+      "approvalQuotaMultiplier": 0,
+      "maxDomainCount": 0,
+      "defaultMaxClientCount": 36
+    },
+    "brandSetup": "COMPLETED",
+    "creationFlow": "CREATION_FLOW_UNSPECIFIED",
+    "updateTimestamp": "2021-02-12T13:12:51.399Z"
+  },
+  "clients": [],
+  "review": {
+    "hasAbuseVerdict": false,
+    "isPublished": false,
+    "reviewState": "PENDING",
+    "highRiskScopesPrivilege": "DISABLED",
+    "lowRiskScopes": [],
+    "pendingScopes": [],
+    "exemptScopes": [],
+    "approvedScopes": [],
+    "historicalApprovedScopes": [],
+    "pendingDomains": [
+      "tellm-android.firebaseapp.com",
+      "jodel.com",
+      "cloudflareaccess.com",
+      "jodel.dev",
+      "jodel.live"
+    ],
+    "approvedDomains": [],
+    "enforceRequestScopes": false,
+    "category": []
+  },
+  "isOrgInternal": false,
+  "riscConfiguration": {
+    "enabled": true,
+    "deliveryMethod": "FIREBEAR",
+    "receiverSupportedEventType": [],
+    "legalAgreement": [
+      "INTERNAL"
+    ]
+  },
+  "consistencyToken": "2021-02-12T13:12:52.427745Z"
+}

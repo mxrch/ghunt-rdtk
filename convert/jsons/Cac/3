@@ -1,0 +1,81 @@
+HTTP/2 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: X-Origin
+Vary: Referer
+Vary: Origin,Accept-Encoding
+Date: Mon, 14 Feb 2022 00:23:58 GMT
+Server: ESF
+Cache-Control: private
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: https://console.cloud.google.com
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: vary,vary,vary,content-encoding,date,server,content-length
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Accept-Ranges: none
+
+{
+  "brandId": "1070009224336",
+  "projectIds": [],
+  "projectNumbers": [
+    "1070009224336"
+  ],
+  "displayName": "Android device",
+  "iconUrl": "https://lh3.googleusercontent.com/G44E9KQbLv-6Li13ushW8nwkVypPCegUy5nDY00g7TBWCwUzBxFH6_l2DewpOKC6SLc",
+  "storedIconUrl": "https://lh3.googleusercontent.com/G44E9KQbLv-6Li13ushW8nwkVypPCegUy5nDY00g7TBWCwUzBxFH6_l2DewpOKC6SLc",
+  "supportEmail": "ukode@google.com",
+  "homePageUrl": "",
+  "termsOfServiceUrls": [],
+  "privacyPolicyUrls": [],
+  "directNoticeToParentsUrl": "",
+  "brandState": {
+    "state": "ENABLED",
+    "adminId": "0",
+    "reason": "",
+    "limits": {
+      "approvalQuotaMultiplier": 0,
+      "maxDomainCount": 0,
+      "defaultMaxClientCount": 36
+    },
+    "brandSetup": "COMPLETED",
+    "creationFlow": "CREATION_FLOW_UNSPECIFIED"
+  },
+  "clients": [],
+  "verifiedBrand": {
+    "displayName": {
+      "value": "Android device",
+      "reason": "APPEALED"
+    },
+    "storedIconUrl": {
+      "value": "https://lh3.googleusercontent.com/G44E9KQbLv-6Li13ushW8nwkVypPCegUy5nDY00g7TBWCwUzBxFH6_l2DewpOKC6SLc",
+      "reason": "APPEALED"
+    },
+    "supportEmail": {
+      "value": "ukode@google.com",
+      "reason": "APPEALED"
+    }
+  },
+  "review": {
+    "hasAbuseVerdict": false,
+    "isPublished": true,
+    "reviewState": "APPROVED",
+    "highRiskScopesPrivilege": "ENABLED",
+    "lowRiskScopes": [],
+    "pendingScopes": [],
+    "exemptScopes": [],
+    "approvedScopes": [
+      310
+    ],
+    "historicalApprovedScopes": [
+      310
+    ],
+    "pendingDomains": [],
+    "approvedDomains": [],
+    "enforceRequestScopes": false,
+    "category": [],
+    "decisionTimestamp": "2020-11-19T00:42:31.926Z"
+  },
+  "isOrgInternal": false,
+  "consistencyToken": "2020-12-03T01:52:22.086324Z"
+}
